@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arjit Agarwal | AI/ML Student &amp; Aspiring AI Engineer</title>
+<meta name="description" content="Portfolio of Arjit Agarwal, AI/ML student and Python developer.">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="global-bg" aria-hidden="true">
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+  <div class="bg-grid-global"></div>
+</div>
+
+<!-- ===================== SCROLL PROGRESS BAR ===================== -->
+<div id="scroll-progress"></div>
+
+<!-- ===================== NAVBAR ===================== -->
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#home" class="logo">Arjit<span class="dot">_</span>Portfolio</a>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#achievements" class="nav-link">Achievements</a>
+      <a href="#resume" class="nav-link">Resume</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+  <div class="bg-grid"></div>
+  <canvas id="neural-canvas"></canvas>
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      
+      <h1>Hi, I'm <span class="grad-text">Arjit Agarwal</span></h1>
+      <h2 class="hero-role">AI/ML Student &amp; Aspiring AI Engineer</h2>
+
+      <p class="hero-desc">
+        I am an AI/ML student passionate about building intelligent solutions using
+        Python, Machine Learning, Deep Learning, and modern AI technologies. I enjoy
+        solving real-world problems and turning ideas into practical applications.
+      </p>
+
+      <div class="hero-typed-wrap">
+        <span class="prompt-arrow">&gt;&gt;&gt;</span>
+        <span id="typed-text"></span><span class="cursor">|</span>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="assets/resume.pdf" class="btn btn-outline" download>Download Resume</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/Arjit454" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/arjit-agarwal-920a20380/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:arjitagarwal06@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+  
+    <div class="hero-visual">
+      <div class="photo-frame-wrap" id="photo-frame-wrap">
+        <div class="frame-ring frame-ring-1"></div>
+        <div class="frame-ring frame-ring-2"></div>
+
+        <div class="photo-frame">
+            <img src="assets/profile.jpg" alt="Arjit Agarwal"> 
+            <i class="fa-solid fa-user"></i>
+            <span>Add assets/profile.jpg</span>
+          </div>
+           
+        </div>
+
+        <span class="frame-badge frame-badge-1"><i class="fa-brands fa-python"></i></span>
+        <span class="frame-badge frame-badge-2"><i class="fa-solid fa-brain"></i></span>
+        <span class="frame-badge frame-badge-3"><i class="fa-solid fa-microchip"></i></span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-hint" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section" id="about">
+  <div class="container">
+    
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm currently studying AI &amp; Machine Learning at <strong>GLA University</strong>,
+          where I spend most of my time training models, breaking them, and figuring out
+          why. I'm comfortable across the ML pipeline — from cleaning messy data to
+          training deep learning models to shipping a working demo.
+        </p>
+        <p>
+          Right now I'm deepening my knowledge of deep learning architectures, computer
+          vision, and building end-to-end AI products rather than just notebooks. I enjoy
+          taking a real-world problem, framing it as a data problem, and building something
+          people can actually use.
+        </p>
+        <p>
+          <strong>Career goal:</strong> to grow into a full-time AI/ML Engineer role where I
+          can build production-grade intelligent systems.
+        </p>
+      </div>
+
+      <div class="about-cards">
+        <div class="info-card">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>Education</h3>
+          <p>AI/ML Student</p>
+        </div>
+        <div class="info-card">
+          <i class="fa-solid fa-brain"></i>
+          <h3>Focus</h3>
+          <p>Machine Learning &amp; AI</p>
+        </div>
+        <div class="info-card">
+          <i class="fa-solid fa-rocket"></i>
+          <h3>Goal</h3>
+          <p>AI/ML Engineer</p>
+        </div>
+        <div class="info-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <h3>Location</h3>
+          <p>India</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SKILLS ===================== -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    
+    <h2 class="section-title">Technical Skills</h2>
+    <br><br><br>
+
+    <div class="skills-grid">
+
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-code"></i> Programming</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-robot"></i> AI / ML</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Machine Learning</span>
+          
+          <span class="skill-tag">TensorFlow</span>
+          <span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">Scikit-learn</span>
+          
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-chart-simple"></i> Data</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">NumPy</span>
+          <span class="skill-tag">Pandas</span>
+          <span class="skill-tag">Matplotlib</span>
+          
+          
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-toolbox"></i> Tools</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Google Colab</span>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section class="section" id="projects">
+  <div class="container">
+    
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">A few things I've built end-to-end, from model to interface.</p>
+
+    <div class="projects-grid">
+
+      
+
+      <!-- PROJECT 1 -->
+      <article class="project-card">
+        <div class="project-media">
+          <i class="fa-solid fa-leaf project-icon"></i>
+        </div>
+        <div class="project-body">
+          <h3>AI Resume Analyzer</h3>
+          <p class="project-tagline">AI-Powered Resume Analysis Tool and Job Matching Platform</p>
+          <p class="project-desc">
+            This Project lets users upload their resume to get an AI-powered ATS score, skill-gap analysis, and job matches, then practice AI-driven mock interviews with feedback while following a personalized learning roadmap to improve their career readiness.
+          </p>
+          <div class="project-tech">
+            <span>Python</span><span>Flask</span><span>SQLite</span>
+            <span>Groq API</span><span>PyMuPDF</span><span>Python-docx</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <ul class="project-features">
+            <li>Resume analysis</li>
+            <li>Job recommendations</li>
+            <li>Mock interview assessment</li>
+            <li>Learning path suggestions</li>
+            <li>Report Dashboard & Main Dashboard</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/Arjit454/AI-resume-analyzer-and-mock-interview.git" class="btn btn-small btn-outline" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://ai-resume-analyzer-and-mock-interview-3.onrender.com/" class="btn btn-small btn-primary" target="_blank" rel="noopener">Live Project</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 2 -->
+      <article class="project-card">
+        <div class="project-media">
+          <i class="fa-solid fa-seedling project-icon"></i>
+        </div>
+        <div class="project-body">
+          <h3>Crop Disease Detection</h3>
+          <p class="project-tagline">AI-Powered Smart Farming Assistant</p>
+          <p class="project-desc">
+            This Is an AI-powered platform that helps farmers detect crop diseases, get weather
+            information, understand market prices, and interact with an AI chatbot.
+          </p>
+          <div class="project-tech">
+            <span>Python</span><span>Flask</span><span>PyTorch</span>
+            <span>Machine Learning</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PlantVillage Dataset</span>
+          </div>
+          <ul class="project-features">
+            <li>Crop disease detection</li>
+            <li>Weather information</li>
+            <li>Market price prediction</li>
+            <li>AI chatbot</li>
+            <li>Farmer assistance</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" class="btn btn-small btn-primary" target="_blank" rel="noopener">Live Demo</a>
+            <a href="#" class="btn btn-small btn-outline" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 3 -->
+      <article class="project-card">
+        <div class="project-media">
+          <i class="fa-solid fa-chart-line project-icon"></i>
+        </div>
+        <div class="project-body">
+          <h3>Data Analytics Dashboard</h3>
+          <p class="project-tagline">Sales &amp; Customer Analytics</p>
+          <p class="project-desc">
+            An interactive data analysis project that explores customer purchases, sales
+            trends, spending patterns, and business insights.
+          </p>
+          <div class="project-tech">
+            <span>Python</span><span>Pandas</span><span>NumPy</span>
+            <span>Matplotlib</span><span>Seaborn</span><span>Power BI</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn btn-small btn-outline" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#" class="btn btn-small btn-primary" target="_blank" rel="noopener">View Dashboard</a>
+          </div>
+        </div>
+      </article>
+
+      
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EDUCATION ===================== -->
+<section class="section section-alt" id="education">
+  <div class="container">
+    
+    <h2 class="section-title">Education</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass-card">
+          <span class="timeline-date">2025 &ndash; Present</span>
+          <h3>GLA University</h3>
+          <p class="timeline-degree">Bachelor's Degree &mdash; AI &amp; ML</p>
+          <p>CGPA: <em>7.8</em></p>
+          <p>Relevant coursework: <em> Data Structures, ML, Deep Learning</em></p>
+          
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass-card">
+          <span class="timeline-date"><em>2025</em></span>
+          <h3>Class 12th</h3>
+          <p class="timeline-degree"><em>Mahatma Hansraj Modern School, Jhansi</em></p>
+          <p>Stream: <em> Science (PCM)</em></p>
+          <p>Percentage: <em>75%</em></p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass-card">
+          <span class="timeline-date"><em>2023</em></span>
+          <h3>Class 10th</h3>
+          <p class="timeline-degree"><em>The Woods Heritage School, Jhansi</em></p>
+          <p>Percentage: <em>93%</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== CERTIFICATIONS ===================== -->
+    <div class="certs-wrap">
+      <h3 class="subsection-title">Certifications</h3>
+      <div class="certs-grid">
+        <div class="cert-card glass-card">
+          <i class="fa-solid fa-certificate"></i>
+          <h4>Azure Fundamentals<br>(AZ-900)</h4>
+          <p class="cert-org">Microsoft</p>
+          <p class="cert-year">2026</p>
+          <a href="file:///D:/certificates/AZ-900%20certificate.pdf" class="cert-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <div class="cert-card glass-card">
+          <i class="fa-solid fa-certificate"></i>
+          <h4>Introduction To Machine Learning</h4>
+          <p class="cert-org">AWS</p>
+          <p class="cert-year">2026</p>
+          <a href="file:///D:/certificates/c20b3d03-a81f-4b20-a0bb-8c8f1fbdce35.pdf" class="cert-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <div class="cert-card glass-card">
+          <i class="fa-solid fa-certificate"></i>
+          <h4>Data Analyst: Career Preparation</h4>
+          <p class="cert-org">IBM</p>
+          <p class="cert-year">2026</p>
+          <a href="file:///D:/certificates/Cognitive%20Class%20ibm%20(1).mht" class="cert-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <div class="cert-card glass-card">
+          <i class="fa-solid fa-certificate"></i>
+          <h4>Data Engineering on AWS-FOUNDATIONS</h4>
+          <p class="cert-org">AWS</p>
+          <p class="cert-year">2026</p>
+          <a href="file:///D:/certificates/e74b89a1-7e59-4ec8-a4c1-ab41aed5477a.pdf" class="cert-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <div class="cert-card glass-card">
+          <i class="fa-solid fa-certificate"></i>
+          <h4>Introduction To Data Analytics</h4>
+          <p class="cert-org">Skillup</p>
+          <p class="cert-year">2026</p>
+          <a href="file:///D:/certificates/data%20analytics%20cdertificate%20skillup.pdf" class="cert-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <div class="cert-card glass-card">
+          <i class="fa-solid fa-certificate"></i>
+          <h4>Data Science & Analytics</h4>
+          <p class="cert-org">hp Foundation</p>
+          <p class="cert-year">2026</p>
+          <a href="file:///D:/certificates/Data%20Science%20&%20Analytics%20hp.pdf" class="cert-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <div class="cert-card glass-card">
+          <i class="fa-solid fa-certificate"></i>
+          <h4>AI-Vengers: The IoT War Workshop</h4>
+          <p class="cert-org">CSED Club, GLAU</p>
+          <p class="cert-year">2025</p>
+          <a href="D:\certificates\Screenshot 2026-08-08 121315.png" class="cert-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ACHIEVEMENTS ===================== -->
+<section class="section" id="achievements">
+  <div class="container">
+    
+    <h2 class="section-title">Achievements</h2>
+
+    <div class="achievements-grid">
+      <div class="achievement-card glass-card">
+        <i class="fa-solid fa-trophy"></i>
+        <h3>Hackathon Achievement</h3>
+        <p>Top 5  &mdash; <em>DEPLOY-X</em></p>
+        <p>Top 10  &mdash; <em>CODEPUNK V2.0</em></p>
+      </div>
+      <div class="achievement-card glass-card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3>Coding</h3>
+        <p>Solved problems on coding platforms &mdash; <em>LeetCode </em></p>
+      </div>
+      
+      <div class="achievement-card glass-card">
+        <i class="fa-solid fa-medal"></i>
+        <h3>Competitions</h3>
+        <p>Participated in WEB-X hackathon</p>
+        <p>Participated in VISION-X hackathon</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== RESUME CTA ===================== -->
+<section class="section resume-section" id="resume">
+  <div class="container resume-inner">
+    <h2 class="section-title">Want to know more about me?</h2>
+    <p class="section-sub">
+      Download my resume to explore my education, technical skills, projects and achievements.
+    </p>
+    <!-- Put your PDF file at assets/resume.pdf -->
+    <a href="assets/resume.pdf" class="btn btn-primary btn-large" download>
+      <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+    </a>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section" id="contact">
+  <div class="container">
+    
+    <h2 class="section-title">Let's Build Something Together</h2>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <span class="contact-label">Email</span>
+            <a href="mailto:arjitagarwal06@gmail.com">arjitagarwal06@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <span class="contact-label">Phone</span>
+            <a href="tel:+919555247045">+91 95552 47045</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <span class="contact-label">Location</span>
+            <span>India</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-brands fa-linkedin"></i>
+          <div>
+            <span class="contact-label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/arjit-agarwal-920a20380/" target="_blank" rel="noopener">linkedin.com/in/arjit-agarwal-920a20380/</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-brands fa-github"></i>
+          <div>
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/Arjit454" target="_blank" rel="noopener">github.com/Arjit454</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <form class="contact-form glass-card" id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name">
+          <span class="error-msg" id="name-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com">
+          <span class="error-msg" id="email-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity..."></textarea>
+          <span class="error-msg" id="message-error"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        <p class="form-success" id="form-success">Message sent! I'll get back to you soon.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>&copy;  Arjit Agarwal</p>
+    <p class="footer-tagline">Built with Python, AI &amp; passion.</p>
+    <div class="social-icons">
+      <a href="https://github.com/Arjit454" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/arjit-agarwal-920a20380/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:arjitagarwal06@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== BACK TO TOP ===================== -->
+<button id="back-to-top" aria-label="Back to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
